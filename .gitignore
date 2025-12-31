@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 프로젝트 관련
+# 테스트 결과물 (용량이 크고 매번 재생성됨)
+by_claude/results/
+by_cursor/results/
+
+# 샘플 데이터 (용량이 크고 개인정보 포함 가능)
+data/
+
+# 의존성 관리 (프로젝트별로 다를 수 있음)
+uv.lock
+
+# VS Code 워크스페이스
+*.code-workspace
+
+# 임시 파일
+*.tmp
+~$*
+
+# 로그 파일
+*.log
